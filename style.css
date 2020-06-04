@@ -80,6 +80,7 @@ nav a{
     text-align: center;
     font-family: corbel;
     padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .services li {
@@ -112,16 +113,20 @@ nav a{
 }
 
 .spaced-text {
-    display: flex;
-    justify-content: space-between;
+    position: relative;
     width: 45%;
-    display: list-item;
+}
+
+.span-space {
+    position: absolute;
+    right: 100px;
+    display: flex;
 }
 
 .taylor-img {
     width: 50%;
-    position: absolute;
-    right: 25%;
+    display: block;
+    margin: 0 auto
 }
 
 
@@ -133,8 +138,8 @@ nav a{
     }
 
     .header img {
-        right: 28px;
-        position: relative;
+        display: block;
+        margin: 55px auto 0;
     }
 }
 /* // Small devices (landscape phones, 576px and up) */
@@ -146,14 +151,12 @@ nav a{
     }
 
     .header img {
-        right: 28px;
-        position: relative;
+        display: block;
+        margin: 55px auto 0;
     }
 
     .taylor-img {
         width: 50%;
-        /* position: absolute;
-        right: 25%; */
     }
 }
 
@@ -163,6 +166,10 @@ nav a{
         position: absolute;
         right: -5px;
         top: -53px;
+    }
+
+    .span-space {
+        right: 90px;
     }
 }
 
