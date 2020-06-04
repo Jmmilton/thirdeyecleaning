@@ -149,6 +149,12 @@ nav a{
         right: 28px;
         position: relative;
     }
+
+    .taylor-img {
+        width: 50%;
+        /* position: absolute;
+        right: 25%; */
+    }
 }
 
 /* // Medium devices (tablets, 768px and up) */
