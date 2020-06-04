@@ -11,3 +11,8 @@ document.addEventListener("click", function(event) {
        $('.navbar-collapse').removeClass("show"); 
     };
 });
+
+
+
+
+need to fix toggle animation !!!

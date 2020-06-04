@@ -2,26 +2,27 @@
     font-family: aural;
     src: url(./arual/Arual.ttf);
   }
-  @font-face {
+  
+@font-face {
     font-family: corbel;
     src: url(./corbel/CORBEL.TTF);
-  }
+}
 
-  p, li, h1, h1, h3, h4, h5, h6 {
+p, li, h1, h1, h3, h4, h5, h6 {
       font-family: corbel;
-  }
+}
 
-  .banner {
+.banner {
       background-size: auto;
       background-color: red;
       height: 50px;
       text-align: center;
-  }
+}
 
-  .banner a {
+.banner a {
       text-decoration: none;
       color: black;
-  }
+}
 
 
 .header img {
@@ -50,8 +51,9 @@ nav a{
     display: inline-block;
     padding: 8px 20px;
     position: relative;
-  }
-  .navbar-nav a:after {    
+}
+
+.navbar-nav a:after {    
     background: none repeat scroll 0 0 transparent;
     bottom: 0;
     content: "";
@@ -62,12 +64,13 @@ nav a{
     background: #8bcce0;
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
-  }
-  .navbar-nav a:hover:after { 
+}
+
+.navbar-nav a:hover:after { 
     width: 100%; 
     left: 0; 
-  }
-
+}
+  
 .navbar-nav {
     padding-bottom: 10px;
 }
@@ -76,13 +79,50 @@ nav a{
 .title {
     text-align: center;
     font-family: corbel;
+    padding-bottom: 20px;
 }
 
 .services li {
     text-decoration: none;
-
 }
 
+.note-underline {
+    text-decoration: underline;
+}
+
+.section-title {
+    /* display: inline-block;
+    line-height: 0.85;
+    text-align: center;
+    border-bottom: solid 2px #8bcce0; */
+    text-decoration: underline #8bcce0;
+    
+}
+
+.red {
+    color: red;
+}
+
+.covid-title {
+    color: red;
+}
+
+.covid-p, .covid-ul {
+    color: darkred;
+}
+
+.spaced-text {
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+    display: list-item;
+}
+
+.taylor-img {
+    width: 50%;
+    position: absolute;
+    right: 25%;
+}
 
 
 @media (max-width: 576px) {
