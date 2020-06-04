@@ -13,15 +13,17 @@ p, li, h1, h1, h3, h4, h5, h6 {
 }
 
 .banner {
-      background-size: auto;
       background-color: red;
-      height: 50px;
       text-align: center;
 }
 
 .banner a {
       text-decoration: none;
       color: black;
+}
+
+.banner h6 {
+    margin: auto
 }
 
 
@@ -70,17 +72,24 @@ nav a{
     width: 100%; 
     left: 0; 
 }
-  
-.navbar-nav {
-    padding-bottom: 10px;
+
+.custom-hr-nav {
+    margin-top: 0;
 }
 
+.custom-hr {
+    margin-top: 2rem;
+    margin-bottom: 2rem
+}
 
 .title {
     text-align: center;
     font-family: corbel;
     padding-bottom: 20px;
-    padding-top: 20px;
+}
+
+.service-title {
+    padding-top: 15px;
 }
 
 .services li {
@@ -92,10 +101,6 @@ nav a{
 }
 
 .section-title {
-    /* display: inline-block;
-    line-height: 0.85;
-    text-align: center;
-    border-bottom: solid 2px #8bcce0; */
     text-decoration: underline #8bcce0;
     
 }
@@ -126,7 +131,9 @@ nav a{
 .taylor-img {
     width: 50%;
     display: block;
-    margin: 0 auto
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 
@@ -134,12 +141,16 @@ nav a{
     .navbar-toggler {
         position: absolute;
         right: -5px;
-        top: -53px;
+        top: -45px;
     }
 
     .header img {
         display: block;
-        margin: 55px auto 0;
+        margin: 55px 20 0;
+    }
+
+    .span-space {
+        right: 25px;
     }
 }
 /* // Small devices (landscape phones, 576px and up) */
@@ -158,6 +169,10 @@ nav a{
     .taylor-img {
         width: 50%;
     }
+
+    .span-space {
+        right: 25px;
+    }
 }
 
 /* // Medium devices (tablets, 768px and up) */
@@ -165,7 +180,7 @@ nav a{
     .navbar-toggler {
         position: absolute;
         right: -5px;
-        top: -53px;
+        top: -65px;
     }
 
     .span-space {
