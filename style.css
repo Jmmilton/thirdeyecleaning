@@ -2,6 +2,14 @@
     font-family: aural;
     src: url(./arual/Arual.ttf);
   }
+  @font-face {
+    font-family: corbel;
+    src: url(./corbel/CORBEL.TTF);
+  }
+
+  p, li, h1, h1, h3, h4, h5, h6 {
+      font-family: corbel;
+  }
 
   .banner {
       background-size: auto;
@@ -51,7 +59,7 @@ nav a{
     height: 2px;
     left: 50%;
     position: absolute;
-    background: rgb(202, 0, 0);
+    background: #8bcce0;
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
   }
@@ -67,6 +75,7 @@ nav a{
 
 .title {
     text-align: center;
+    font-family: corbel;
 }
 
 .services li {
@@ -82,6 +91,11 @@ nav a{
         right: -5px;
         top: -53px;
     }
+
+    .header img {
+        right: 28px;
+        position: relative;
+    }
 }
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
@@ -89,6 +103,11 @@ nav a{
         position: absolute;
         right: -5px;
         top: -53px;
+    }
+
+    .header img {
+        right: 28px;
+        position: relative;
     }
 }
 
