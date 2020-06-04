@@ -13,7 +13,7 @@ p, li, h1, h1, h3, h4, h5, h6 {
 }
 
 .banner {
-      background-color: red;
+      background-color: #8bcce0;
       text-align: center;
 }
 
@@ -110,11 +110,11 @@ nav a{
 }
 
 .covid-title {
-    color: red;
+    color: #8bcce0;
 }
 
 .covid-p, .covid-ul {
-    color: darkred;
+    color: #13506185;
 }
 
 .spaced-text {
@@ -152,7 +152,7 @@ nav a{
     .span-space {
         right: 25px;
     }
-    
+
     .about-p {
         text-align: center;
     }
