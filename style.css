@@ -1,0 +1,112 @@
+@font-face {
+    font-family: aural;
+    src: url(./arual/Arual.ttf);
+  }
+
+  .banner {
+      background-size: auto;
+      background-color: red;
+      height: 50px;
+      text-align: center;
+  }
+
+  .banner a {
+      text-decoration: none;
+      color: black;
+  }
+
+
+.header img {
+    width: 75%;
+    max-width: 100%;
+    margin-top: 35px;
+}
+
+.header {
+    text-align: center;
+}
+
+
+nav a{
+    font-family: aural;
+    font-size: 25px;
+    font-weight: 200;
+}
+
+
+.navbar-nav a {
+    color: rgba(0, 0, 0, 0);
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    display: inline-block;
+    padding: 8px 20px;
+    position: relative;
+  }
+  .navbar-nav a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: rgb(202, 0, 0);
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  .navbar-nav a:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+
+.navbar-nav {
+    padding-bottom: 10px;
+}
+
+
+.title {
+    text-align: center;
+}
+
+.services li {
+    text-decoration: none;
+
+}
+
+
+
+@media (max-width: 576px) {
+    .navbar-toggler {
+        position: absolute;
+        right: -5px;
+        top: -53px;
+    }
+}
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .navbar-toggler {
+        position: absolute;
+        right: -5px;
+        top: -53px;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .navbar-toggler {
+        position: absolute;
+        right: -5px;
+        top: -53px;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    /* .navbar-toggler {
+        display: none;
+    } */
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
