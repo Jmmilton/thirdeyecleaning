@@ -152,6 +152,10 @@ nav a{
     .span-space {
         right: 25px;
     }
+    
+    .about-p {
+        text-align: center;
+    }
 }
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
