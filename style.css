@@ -13,13 +13,14 @@ p, li, h1, h1, h3, h4, h5, h6 {
 }
 
 .banner {
-      background-color: #8bcce0;
-      text-align: center;
+    font-family: corbel;
+    background-color: #8bcce0;
+    text-align: center;
 }
 
 .banner a {
-      text-decoration: none;
-      color: black;
+    font-weight: 600;
+    color: black;
 }
 
 .banner h6 {
@@ -135,6 +136,19 @@ nav a{
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
+.contact-gap {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* .main-img {
+    display: block;
+    margin: 0 auto;
+    /* width: 70%; */
+    background-size: cover;
+    background: no-repeat;
+} */
 
 
 @media (max-width: 576px) {
