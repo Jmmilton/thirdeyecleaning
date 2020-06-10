@@ -168,21 +168,23 @@ nav a{
 }
 
 .book-button {
-    background: #8bcce0;
-    font-family: aural;
+    font-family: corbel;
+    background-color: rgba(255, 255, 255, 0.781);
+    color: black;
+    font-weight: 600;
     border: 1px solid black;
     padding: 10px 16px;
-    font-size: 18px;
+    font-size: 24px;
     line-height: 1.3333333;
     border-radius: 10px;
     display: inline-block;
     text-decoration: none;
-
+    transition:all 0.3s ease;
 }
 
 .book-button:hover {
     background-color: #9ea3a5;
-    color: #2b4c58;
+    color: black;
     text-decoration: none;
 }
 
@@ -207,12 +209,7 @@ nav a{
         text-align: center;
     }
 
-    .book-button {
-        padding: 1px 5px;
-        font-size: 12px;
-        line-height: 1.5;
-        border-radius: 3px;
-    }
+   
 }
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
@@ -247,14 +244,25 @@ nav a{
     .span-space {
         right: 90px;
     }
+    
+    .book-button {
+        font-size: 30px;
+        background: none;
+    }
 }
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-    /* .navbar-toggler {
-        display: none;
-    } */
+    .book-button {
+        font-size: 30px;
+        background: none;
+    }
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+    .book-button {
+        font-size: 30px;
+        background: none;
+    }
+}
