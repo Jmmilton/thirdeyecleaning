@@ -184,9 +184,16 @@ nav a{
 
 .book-button:hover {
     background-color: #9ea3a5;
-    color: black;
+    color: white!important;
     text-decoration: none;
 }
+
+.btn-outline-secondary {
+    color: #212529!important;
+    border-color: #6c757d;
+
+}
+
 
 
 @media (max-width: 576px) {
@@ -244,7 +251,7 @@ nav a{
     .span-space {
         right: 90px;
     }
-    
+
     .book-button {
         font-size: 30px;
         background: none;
