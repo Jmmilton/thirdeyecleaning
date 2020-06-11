@@ -163,7 +163,6 @@ nav a{
 .img-overlay:before {
     content: ' ';
     display: block;
-    /* adjust 'height' to position overlay content vertically */
     height: 40%;
 }
 
@@ -191,8 +190,24 @@ nav a{
 .btn-outline-secondary {
     color: #212529!important;
     border-color: #6c757d;
-
 }
+
+.contact-form {
+    font-family: corbel;
+}
+
+.submit-button {
+    background-color: #8bcce0!important;
+    border-color: #9ea3a5!important;
+    color: black!important;
+    transition:all 0.3s ease;
+}
+
+.submit-button:hover {
+    color: black!important;
+    background-color: #9ea3a5!important;
+}
+
 
 
 
